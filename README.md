@@ -8,4 +8,8 @@ To build use the latest version of [LibNX](https://github.com/switchbrew/libnx) 
 
 ## Credits
 LibNX and DevkitPro for making the toolchain.
+
 Dalton Maag for the [Ubuntu font](https://fonts.google.com/specimen/Ubuntu).
+
+## Screenshot
+![Image](https://raw.githubusercontent.com/CompSciOrBust/CalculateNX/master/Screenshots/Image1.jpg)!
