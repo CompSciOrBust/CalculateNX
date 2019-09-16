@@ -45,7 +45,7 @@ INCLUDES	:=	include
 ROMFS	:=	romfs
 APP_AUTHOR =: CompSciOrBust
 APP_TITLE := CalculateNX
-APP_VERSION := 1.0
+APP_VERSION := 1.0.1
 
 #---------------------------------------------------------------------------------
 # options for code generation

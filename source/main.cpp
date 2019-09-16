@@ -163,9 +163,18 @@ void MakeLayout(TTF_Font *AnswerFont)
 		DrawButton("-", renderer, AnswerFont);
 		if(ButtonPressed())
 		{
-			CalculateAns();
-			OpperandToUse = 2;
-			Answer = " ";
+			//If no number entered user wants to enter a negative number
+			if(Answer == " ")
+			{
+				Answer = "-";
+			}
+			//Number entered so user wants to subtract a number from this number
+			else
+			{
+				CalculateAns();
+				OpperandToUse = 2;
+				Answer = " ";
+			}
 		}
 		
 		//Draw the second row
